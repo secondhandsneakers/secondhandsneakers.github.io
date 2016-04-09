@@ -41,6 +41,7 @@ div.mc-field-group input
 	font-size: 2em;
 	font-weight: 100;
 	color: #e7e7e7;
+	border-radius: 0;
 }
 
 div.mc-field-group input:focus
