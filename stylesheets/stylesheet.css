@@ -1,3 +1,7 @@
+* {
+    outline: none;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -29,6 +33,7 @@ h2
 div.mc-field-group input
 {
 	border-bottom: 1px solid black;
+	background: none;
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -41,11 +46,8 @@ div.mc-field-group input
 
 div.mc-field-group input:focus
 {
-	outline: none;
 	color: #000;
 }
-
-
 
 input.button
 {
@@ -60,14 +62,7 @@ input.button
 
 input.button:active
 {
-	background: none;
-	border: none;
-	height: 50px;
-	color: blue;
-	font-size: 2em;
-	font-weight: 100;
-	padding: 0;
-	outline: none;
+	margin-top:2px;
 }
 
 input.button:hover
