@@ -61,6 +61,18 @@ input.button
 	padding: 0;
 }
 
+input.button:active
+{
+	background: none;
+	border: none;
+	height: 50px;
+	color: blue;
+	font-size: 2em;
+	font-weight: 100;
+	padding: 0;
+	outline: none;
+}
+
 input.button:hover
 {
 }
